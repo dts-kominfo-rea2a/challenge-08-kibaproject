@@ -1,0 +1,48 @@
+body {
+    background: rgb(153, 23, 23);
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    background:rgb(161, 224, 60);
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#todo-title{
+    background: rgb(182, 174, 174);
+    padding:8px 16px;
+    font-weight: 900;
+    margin: auto;
+}
+
+#todo-subtitle{
+    margin: 16px auto;
+}
+
+#input{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 75%;
+    margin: auto;
+}
+
+#todo-input{
+    width: 100%;
+    padding: 8px 12px;
+}
+
+#todo-submit{
+    padding: 8px;
+    cursor: pointer;
+}
+
+#todo-output{
+    margin-left: calc(25% / 2);
+}
+
+
